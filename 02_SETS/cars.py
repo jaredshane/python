@@ -19,4 +19,14 @@ showroom.update(new_showroom)
 
 showroom.discard("Big Truck")
 
+# print(showroom)
+
+junkyard = { "Ford Mustang", "Crappy Car", "Really crappy car"}
+
+# print(showroom.intersection(junkyard))
+
+showroom = showroom.union(junkyard)
+print(showroom)
+
+showroom.discard("Really crappy car")
 print(showroom)
